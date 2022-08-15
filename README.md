@@ -38,6 +38,13 @@ forge install ichifarm/util-contracts
 forge install ichi-oneToken=git@github.com:ichifarm/ichi-oneToken.git@1.0.0
 ```
 
+If installing the ichifarm/util-contracts doesn't work try the following:
+
+```bash
+cd lib
+git submodule add git@github.com:ichifarm/util-contracts.git
+```
+
 ### Building
 
 ```bash
