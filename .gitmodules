@@ -16,3 +16,6 @@
 [submodule "lib/ichi-oneToken"]
 	path = lib/ichi-oneToken
 	url = https://github.com/ichifarm/ichi-oneToken.git
+[submodule "lib/util-contracts"]
+	path = lib/util-contracts
+	url = git@github.com:ichifarm/util-contracts.git
