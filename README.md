@@ -30,11 +30,12 @@ forge install
 Note that dependencies are managed via git submodules and the below is purely for reference:
 
 ```bash
+forge install transmissions11/solmate
 forge install OpenZeppelin/openzeppelin-contracts@v3.4.1-solc-0.7
 forge install Uniswap/v3-periphery@v1.3.0
 forge install Uniswap/v3-core@v1.0.0
 forge install ichifarm/util-contracts
-forge install git@github.com:ichifarm/ichi-oneToken.git@1.0.0
+forge install ichi-oneToken=git@github.com:ichifarm/ichi-oneToken.git@1.0.0
 ```
 
 ### Building
