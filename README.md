@@ -1,5 +1,7 @@
 # Getting Started
 
+Note that this is a template repository targeting Solidity 0.7 and you should create new repos and target this as a template.
+
 Install and update foundry.
 
 ```bash
@@ -7,7 +9,13 @@ curl -L https://foundry.paradigm.xyz/ | bash
 foundryup
 ```
 
-Clone this repository, install dependencies, set env vars and test.
+Select the correct solidity version:
+
+```bash
+solc-select use 0.7.6
+```
+
+Install dependencies, set env vars and test.
 
 ```bash
 git clone git@github.com:ichidao/foundry-contracts.git
