@@ -18,7 +18,7 @@ jobs:
           # If not, you can comment this section out.  The same applies to the other 
           # commented out jobs in this workflow
           # ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          token: ${{ secrets.USER_PAT }}
+          # token: ${{ secrets.USER_PAT }}
           submodules: recursive
 
       - name: Install Foundry
